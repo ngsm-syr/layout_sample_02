@@ -17,7 +17,8 @@ header {
   background: #333;
   color: #FFF;
   padding: 20px;
-  position: relative;
+  position: sticky;
+  top: 0;
 }
 
 .main-menu {
@@ -43,6 +44,7 @@ header {
 
 main {
   display: flex;
+  height: 1200px;
 }
 
 section {
@@ -81,4 +83,24 @@ footer {
   color: #FFF;
   padding: 20px;
   text-align: center;
+}
+
+a.pagetop {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #333;
+  color: #FFF;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
