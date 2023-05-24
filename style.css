@@ -30,6 +30,7 @@ header {
 
 .main-menu ul {
   display: flex;
+  justify-content: center;
 }
 
 .main-menu ul li a {
@@ -44,6 +45,7 @@ header {
 
 main {
   display: flex;
+  flex-direction: row-reverse;
   height: 1200px;
 }
 
